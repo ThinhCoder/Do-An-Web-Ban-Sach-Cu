@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width: 2100px;
+    height: 1080px;
+    background-image: url(background.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form
+{
+    width: 700px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(3,3,3,0.5);
+    backdrop-filter:blur(100px);
+    box-shadow:  0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+    
+}
+form h2
+{
+    text-align: center;
+    margin-bottom: 57px;
+    margin-top: 87px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+}
+form #surname ,form #name
+{
+    height: 25px;
+    width: 320px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    outline-color: #000000;
+    background: transparent;
+    border:1px solid #ffffff;
+    color:#fff;
+    border-radius: 5px;
+}
+form #email, form #confirm, form #password , form #confirm-password
+{
+    height: 60px;
+    width: 665px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    outline-color: #000000;
+    background: transparent;
+    border:1px solid #ffffff;
+    color:#fff;
+    border-radius: 5px;
+}
+.register
+{
+    height: 80px;
+    width: 400px;
+    margin: 0px auto;
+    border: 0.5px solid #fff;
+    background:rgba(204, 11, 11, 0.678);
+    font-weight: bold;
+    color:#fff;
+    margin-bottom: 15px;
+}
+.register:hover{opacity:0.85;}
+.register-ac 
+{
+    padding-top: 3px;
+    text-align: center;
+    font-size: 15px ;
+    display: inline-block;
+    color:#fff;
+}
+.register-ac a{text-decoration: none; color:rgb(34, 165, 218);}
+.register-ac:hover a{color:red;}
+.fb
+{
+    text-align:center;
+    margin:auto;
+    width:60%;
+    background-size: 5px;
+    padding-left: 30px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 115, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.fb:hover{opacity: 0.85;}
+.gg
+{
+    text-align:center;
+    margin:auto;
+    width:60%;
+    background-size: 5px;
+   padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(204, 42, 63);
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.signup-social-icon
+{margin-right: 20px;}
+.fb a{margin-left:20px; color:white;text-decoration: none;}
+.gg a{margin-right: 25px;color:white;text-decoration: none;}
+.gg:hover{opacity: 0.85; }
+hr
+{
+    color:#fff;
+    text-align: center;
+    width:40%;
+}
